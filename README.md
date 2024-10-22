@@ -10,3 +10,6 @@
 
 ## Uusi branch
 feature branch lisätty
+
+## Uusi feature
+Feature: Zod salasana ja sähköposti tarkastajat
