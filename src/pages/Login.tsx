@@ -20,7 +20,9 @@ export function Login() {
     // Parempi tapa olisi ehkä käyttää esim. react-routerin Form komponenttia: https://reactrouter.com/en/main/components/form
     // https://valtio.dev/docs/api/basic/proxy
     // Validointi tulisi tehdä ennen submittia esim. https://zod.dev/ kirjastoa hyödyntämällä
-    const credentials = proxy({ email: '', password: '' })
+    const credentials = proxy({ 
+        email: z.string('').max(5), 
+        password: '' })
 
     return <div className="flex w-full flex-col justify-center items-center">
 
