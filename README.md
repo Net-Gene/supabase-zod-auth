@@ -1,15 +1,27 @@
-## Luento 7, aloituskoodit
+# Supabase Zod Auth
 
-### Aloitus
+A minimal authentication system built using React, Supabase, Valtio, and Zod.
 
-1. Kloonaa repositorio
-2. Suorita `npm install`
-3. Luo `.env` tiedosto `.env.example` tiedoston mukaisesti omilla supabase-tiedoilla
-4. Käynnistä kehityspalvelin `npm run dev` ja perehdy koodiin.
-5. Luo supabase-projektin tietokantaan käyttäjätili (valmis users-taulu), testaa kirjautua sisään
+This project is **based on** [`MatiasHiltunen/luento_7`](https://github.com/MatiasHiltunen/luento_7) and was created as a **learning class course task** to practice implementing authentication and input validation in a React app.
 
-## Uusi branch
-feature branch lisätty
+## 🔧 Features
 
-## Uusi feature
-Feature: Zod salasana ja sähköposti tarkastajat
+- 🔐 Login with email and password using Supabase
+- 🧠 State management via Valtio
+- ✅ Input validation with Zod (email & password checks)
+- ⚠️ User feedback through error toasts
+- 🧪 Type-safe and extendable validation logic
+
+## 📦 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Supabase](https://supabase.com/)
+- [Zod](https://zod.dev/)
+- [Valtio](https://valtio.pmnd.rs/)
+- [React Router](https://reactrouter.com/)
+
+## 🚀 How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/supabase-zod-auth
